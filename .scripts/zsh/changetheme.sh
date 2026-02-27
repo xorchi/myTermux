@@ -117,7 +117,7 @@ function selectZshTheme() {
         stop_animation $?
 
         echo ""
-
+# in here ↓
         #exec $(which zsh)
 
         #stat "INFO" "Success" "Please run '${COLOR_SUCCESS}refresh${COLOR_BASED}' or '${COLOR_SUCCESS}source ~/.zshrc${COLOR_BASED}' to apply theme!\n"
